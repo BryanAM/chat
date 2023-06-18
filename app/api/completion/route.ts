@@ -17,7 +17,7 @@ export async function POST(request: Request) {
     const completionModel = await openai.createCompletion({
       model: "text-davinci-003",
       prompt: clientReq.prompt,
-      temperature: 0.3,
+      temperature: 0.7,
     })
 
     console.log(completionModel.data.choices[0].text)

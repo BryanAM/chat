@@ -39,6 +39,9 @@ export default function Home() {
             priority
           />
         </Link>
+        <Link className="border-solid border-2 border-gray-500 rounded-lg p-2" href="/completion">
+          <p className="font-bold">Completion</p>
+        </Link>
       </div>
 
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
